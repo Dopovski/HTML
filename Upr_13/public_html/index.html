@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <script>
+            function fun1(){
+            document.getElementById("mishka").innerHTML = "Здраствуйте братушки";
+            document.getElementById("mishka").style.backgroundColor = "lightgreen";
+            }
+            function fun2(){
+            document.getElementById("mishka").innerHTML = "Сложи мишката върху мен";
+            document.getElementById("mishka").style.backgroundColor = "lightblue";
+            }
+            function fun3(){
+            alert("Разделителна способност е:" + screen.width + "x" + screen.height);    
+            }
+            function fun4(){
+            document.getElementById("button").style.color = "red";    
+            }
+            function fun5(){
+            document.getElementById("button").style.color = "black";    
+            }
+            function fun6(){
+            document.getElementById("lampa").src = "lampa1.png";    
+            }
+            function fun7(){
+            document.getElementById("lampa").src = "lampa2.jpg";      
+            }
+            
+        </script>
+        <div id="mishka" onmouseover="fun1()" onmouseout="fun2()" style="background-color: lightblue">Сложи мишката върху мен</div>
+        <button id="button" onclick="fun3()" onmouseover="fun4()" onmouseout="fun5()" >Разделителна способност </button>
+        <img src="lampa2.jpg" onclick="fun6()" ondblclick="fun7()" id="lampa">
+    </body>
+</html>

@@ -1,0 +1,32 @@
+
+
+
+.hotels
+{
+   color: white;
+    background-color:  green;
+    text-decoration:none;
+    padding:1%;
+}
+h3.sea
+{
+    font-size: 100%;
+     margin-left:0.5%;
+     
+}
+
+
+div.sea2
+{
+    text-align: justify; 
+    margin-left:0.5%;
+}
+
+
+img.sea
+{
+    width: 20vw;;
+/*    height: vh;*/
+    float:right;
+    margin-left: 0.8%;
+}
