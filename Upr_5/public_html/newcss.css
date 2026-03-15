@@ -1,0 +1,42 @@
+body {
+    background-color: gray;
+    color: blue;
+}
+h1 {
+    text-align: center;
+    front-size: 40px;
+    color: darkblue;
+}
+a {
+    background-color: white;
+    text-weight: bold;
+    text-decoration: none;
+    color: brown;
+}
+nav {
+    text-align: center;
+}
+.more {
+    background-color: yellow;
+     color: green;
+}
+p, h2 {
+    color: lightblue;
+}
+h2 {
+    front-size: 30px
+}
+p {
+    text-align: justify;
+    front-size: 18px
+}
+footer p {
+     text-align: center;
+     font-style: italic;
+}
+img {
+    width: 250px;
+    height: 250px;
+  float: right;
+  margin-left: 8px;
+}

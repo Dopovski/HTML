@@ -1,0 +1,26 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 26, 2019, 5:59:26 PM
+    Author     : Maria
+*/
+
+body {background-color:linen;
+    background-image: url("../images/cool.jpg");
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    opacity:0.9;
+    color:purple;
+}
+@font-face{
+	font-family: "OpenSans-CondLightItalic";
+	src:url(../fonts/OpenSans-CondLightItalic.ttf)
+	}
+ h1 {font-family: OpenSans-CondLightItalic}
+	
+

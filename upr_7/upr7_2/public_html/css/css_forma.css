@@ -1,0 +1,33 @@
+.q {
+    display:table-cell;
+    vertical-align: top
+}
+#fname{
+    margin-left:33px;
+    
+}
+select{
+    margin-left: 3px;
+}
+textarea {
+    margin-left: 70px;
+    margin-top: -16px;
+}
+#bar{
+    margin-left: 15px
+}
+input, select, textarea {
+    background-color: orange;
+}
+input:focus, select:focus, textarea:focus {
+    background-color: red;
+    color:white;
+}
+nput:hover, select:hover, textarea:hover{
+    background-color: blue;
+    color:white;
+}
+textarea{
+    resize: none;
+    overflow: scroll;
+}

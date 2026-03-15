@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/css_forma.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <h2>Форма за резервация</h2>
+        <div>
+            <form action="index.php" method="post" target="_blank">
+                <label for="fname"> Име:</label>
+                <input type="text" id="fname" name="fname" ><br>
+
+                <label for="lname">Фамилия:</label>
+                <input type="text" id="lname" name="lname" ><br>
+
+                <label for="country">Държава:</label>
+                <select name="country" id="country">
+                    <option value="bg">България</option>
+                    <option value="g">Германия</option>
+                    <option value="ru">Русия</option>
+                    <option value="fr">Франция</option>
+                    <option value="o">други</option>
+                </select>
+                <br>
+
+                <label for="room"> Тип стая:</label>
+                <select name="room" id="room">  
+                    <option value="one">Единична стая</option>
+                    <option value="double">Двойна </option>
+                    <option value="family">Фамилна стая </option>
+                </select>
+                <br>
+                <br>
+                Хранене: <input type="radio" id="allinclusive" name="food" value="all">
+                <label for="allinclusive">All inclusive</label>
+                <input type="radio" id="fullboard" name="food" value="full">
+                <label for="fullboard">Full Board</label> 
+                <input type="radio" id="halfboard" name="food" value="half">
+                <label for="halfboard">Half Board</label>
+
+                <label for="quest" class="q">Въпроси:</label>
+                <textarea id="quest" name="quest" cols="25" rows="8">
+                </textarea><br><br>
+
+                Екстри: <Input type="checkbox" id="bar" name="extri" value="bar" >  
+                <label for="bar"> Мини бар</label>          
+                <Input type="checkbox" id="seif" name="extri" value=" seif">       
+                <label for="seif"> Сейф </label>
+                <Input type="checkbox" id="sesh" name="extri" value="sesh">
+                <label for="sesh"> Сешоар </label><br><br>
+                
+                <input type="submit" value="Резервирай" >
+                <input type="reset" value="Изчисти формата">
+            </form>
+        </div>
+    </body>
+</html>

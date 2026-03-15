@@ -1,0 +1,28 @@
+h1, p, footer {
+    text-align: center
+}
+.nas {
+    font-weight:bold;
+}
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 50%
+}
+th, td {
+    text-align: center;
+    height: 3vh;
+}
+table, tr, th, td {
+    border: 3px solid darkgreen;
+}
+th{
+    background-color: green;
+    color: white;
+}
+tr:nth-child(even){
+    background-color: lightgreen;
+}
+tr:nth-child(odd){
+    background-color: gray;
+}

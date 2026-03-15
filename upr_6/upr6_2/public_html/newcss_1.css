@@ -1,0 +1,17 @@
+
+body {background-color:linen;
+    background-image: url("../images/cool.jpg");
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    opacity:0.9;
+    color:purple;
+}
+@font-face{
+	font-family: "OpenSans-CondLightItalic";
+	src:url(../fonts/OpenSans-CondLightItalic.ttf)
+	}
+ h1 {font-family: OpenSans-CondLightItalic}
+	
+
